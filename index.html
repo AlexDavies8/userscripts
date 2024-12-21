@@ -1,0 +1,153 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alex's Userscripts</title>
+    <meta name="description" content="A collection of userscripts (and similar) developed by Alex Davies">
+    <meta name="author" content="Alex Davies">
+
+    <meta property="og:title" content="Userscript Collection by Alex Davies">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+    <meta property="og:description" content="A collection of userscripts (and similar) developed by Alex Davies">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost" />
+</head>
+
+<body>
+    <div class="cards-container">
+        <div class="dgg-tweaks-container container">
+            <div class="vertical wrap" style="width: 136px; flex-direction: row; flex-shrink: 0;">
+                <img src="https://lh3.googleusercontent.com/JMV5DPo-L4JQ1SQ7svnACKhLrU5yf91fyHbK8d3zkLzxtsDyhzDAtSp3djJtwWRLLzdIBIl2zikx5SqkxVRoVs9l0A=s120" width="136px" />
+            </div>
+            <div class="vertical">
+                <h1 style="margin: 0;">DGG Tweaks</h2>
+                    <h3 style="margin: 0;">Adjustments and improvements to DGG chat</h3>
+                    <div style="display: flex; gap: 8px; width: 100%;">
+                        <a class="link-button"
+                            href="https://chromewebstore.google.com/detail/dgg-tweaks/mojbdmnhbfbodmoidmcmahbcofceampd">Install</a>
+                        <a class="link-button" style="width: 32px;height:32px;padding:6px;"
+                            href="https://github.com/AlexDavies8/dgg-tweaker"><img
+                                src="https://files.catbox.moe/2lyy7g.png" style="margin:0;padding:0;" width="20px"
+                                height="20px" /></a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="cabge-container container">
+            <div class="vertical wrap" style="width: 136px; flex-direction: row; flex-shrink: 0;">
+                <img src="https://files.catbox.moe/y9asex.png" width="64px" />
+                <img src="https://files.catbox.moe/44wfnb.png" width="64px" />
+                <img src="https://files.catbox.moe/jp8o72.png" width="64px" />
+                <img src="https://files.catbox.moe/wb3rwd.png" width="64px" />
+            </div>
+            <div class="vertical">
+                <h1 style="margin: 0;">Cabge Emotes</h2>
+                    <h3 style="margin: 0;">Swap emotes in DGG chat for Cabge themed versions</h3>
+                    <div style="display: flex; gap: 8px; width: 100%;">
+                        <a class="link-button"
+                            href="https://greasyfork.org/en/scripts/521329-cabge-takeover">Install</a>
+                        <a class="link-button" style="width: 32px;height:32px;padding:6px;"
+                            href="https://github.com/AlexDavies8/userscripts/blob/main/cabge-takeover"><img
+                                src="https://files.catbox.moe/2lyy7g.png" style="margin:0;padding:0;" width="20px"
+                                height="20px" /></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="margin-top: auto; color: white; margin-bottom: 16px;">
+        Made by Alex Davies (aka yuniDev in some places) • <a href="https://github.com/AlexDavies8/userscripts">Github
+            Repo</a>
+    </footer>
+
+    <style>
+        @keyframes bg-scroll-diagonal {
+            0% {
+                background-position: 0px 0px;
+            }
+
+            100% {
+                background-position: -32px 32px;
+            }
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            max-width: calc(min(90%, 960px));
+            gap: 32px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .container {
+            width: 464px;
+            height: 192px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding: 16px 32px 16px 32px;
+            overflow: hidden;
+            flex-direction: row;
+            gap: 32px;
+            border-radius: 4px;
+            box-shadow: 0px 0px 4px black;
+            background-color: white;
+        }
+
+        .dgg-tweaks-container {
+            animation: bg-scroll-diagonal 2s linear infinite;
+            background-image: url("data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TRZFWB6uIOGSoTnZREcdSxSJYKG2FVh1MLv2CJg1Jiouj4Fpw8GOx6uDirKuDqyAIfoA4OzgpukiJ/0sKLWI8OO7Hu3uPu3eA0Kgw1eyKAqpmGal4TMzmVsWeVwQwhH4EMSwxU0+kFzPwHF/38PH1LsKzvM/9OYJK3mSATySOMt2wiDeIZzctnfM+cYiVJIX4nHjSoAsSP3JddvmNc9FhgWeGjExqnjhELBY7WO5gVjJU4hnisKJqlC9kXVY4b3FWKzXWuid/YSCvraS5TnMMcSwhgSREyKihjAosRGjVSDGRov2Yh3/U8SfJJZOrDEaOBVShQnL84H/wu1uzMD3lJgViQPeLbX+MAz27QLNu29/Htt08AfzPwJXW9lcbwNwn6fW2Fj4CBraBi+u2Ju8BlzvAyJMuGZIj+WkKhQLwfkbflAMGb4G+Nbe31j5OH4AMdbV8AxwcAhNFyl73eHdvZ2//nmn19wOK9nKwFmtjygAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+gMFQ8kDRDxo8UAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAABTElEQVRYw9WXQUvDQBCFv00Hq2BFQdJLvXjU//+HtB4UagtVAxUaL5O6hlKSmc0GB5YsS8h7Ozuz72XCb1wCD8AHsCNdnAGPwDdQAUFxSmBVRC8GRogiAp/pvM5JQBS8BG6BJfCVAXerm69FwecK/p4BvFasQwbmwDOwHhA0ANfAtLU+lQzge63+cx1/ajBX5Qcd7QIPwfsB3aGLWZdOudfnsTZ+8RyhdLwrLrR1qnYRAXc6Xw9FoGmdTdSmceZKJREsbSzGY1toZp6AN11v1lZ9blMxHt0sKsy9kpgoiQr47KsFKW63rUXUioS9bhKxgpEjJYEwJgGzn7B2wUHPvX5CjMW2bF1EZj8hPVJ8VM+BK4+kdyFwUs+9fuJfyPHghuRmYEt20k+IV8+9fkKAV4+ee/2EePXc6ydEwcx67vUThVfPU6ph1p/SJn4A8oJRQrZxAmcAAAAASUVORK5CYII=");
+        }
+
+        .cabge-container {
+            animation: bg-scroll-diagonal 2s linear infinite;
+            background-image: url("data:image/png;base64, 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");
+        }
+
+        .vertical {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .link-button {
+            border-radius: 4px;
+            background-color: black;
+            color: white;
+            font-weight: 600;
+            padding: 4px 8px;
+        }
+
+        body {
+            font-family: 'Jost';
+            background-color: #212121;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            padding: 32px 0px 0px 0px;
+            margin: 0px;
+            min-height: 100dvh;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</body>
+
+</html>
