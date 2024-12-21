@@ -2,7 +2,7 @@
 // @name         Catbox.moe Paste
 // @namespace    yuniDev.catbox-paste
 // @version      1.0
-// @description  Allows for pasting files directly into catbox.moe
+// @description  Allows for pasting files directly into catbox.moe. For more scripts see https://alexdavies8.github.io/userscripts/
 // @author       Alex Davies (yuniDev)
 // @match        https://catbox.moe/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=catbox.moe
